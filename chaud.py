@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 
 # but 1: obtenir liste des noms de députés
 
+#le csv est la liste produite
+#input2.py permet de naviguer le csv. Pour des raisons de conflits entre l'encondage du .csv et des accents français (je crois), vous ne pouvez pas entrer de nom complets si le nom contient des accents. Par exemple, "Manon" va donner un résultat, mais "Manon Massé" non.
+
 entetes = {
     "User-Agent":"William d'Avignon, étudiant en journalisme UQAM. Contact: william.davignon@gmail.com"
 }
